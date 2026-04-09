@@ -1,0 +1,27 @@
+{
+  "name": "林然的软件记录页",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "林然的软件列表",
+  "packageManager": "bun@1.3.11",
+  "author": "LinRan <i@linran.moe>",
+  "license": "MIT",
+  "scripts": {
+    "build": "vuepress build docs --clean-cache --clean-temp",
+    "dev": "vuepress dev docs",
+    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
+    "docs:preview": "http-server docs/.vuepress/dist",
+    "vp-update": "bun dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "http-server": "^14.1.1",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.26",
+    "vuepress": "2.0.0-rc.26",
+    "vuepress-theme-plume": "1.0.0-rc.193"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.0.0"
+  }
+}
