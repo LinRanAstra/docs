@@ -25,6 +25,7 @@
     "node": "^20.19.0 || >=22.0.0"
   },
   "dependencies": {
-    "artplayer": "^5.4.0"
+    "artplayer": "^5.4.0",
+    "ogl": "^1.0.11"
   }
 }

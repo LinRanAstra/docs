@@ -6,18 +6,18 @@ config:
     type: hero
     full: true
     forceDark: true
-    effect: lightning
+    effect: orb
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: 林然的软件笔记
+      tagline: 一个用来收藏各种软件和配置的文档
+      text: 
       actions:
         -
           theme: brand
-          text: 文档
+          text: 查看文档 →
           link: /docs/
         -
           theme: alt
           text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          link: https://github.com/LinRanAstra/docs
 ---
